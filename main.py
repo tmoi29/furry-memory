@@ -1,3 +1,11 @@
+'''Anish Shenoy & Tiffany Moi
+
+SoftDev2 pd07
+
+K18 -- Reductio ad Absurdum
+
+2018-04-30'''
+
 f = open("howToSki.txt", "r")
 txt = f.read()
 f.close()
@@ -24,6 +32,7 @@ print freq_phrase(["the","ski"])
 
 def most_freq():
     s = set(words)
+    v = []
     print s
     l = [freq_word(x) for x in words]
     i = l.index(max(l))
